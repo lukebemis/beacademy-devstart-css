@@ -6,19 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
-   <!--<style>
+
+<style>
        h1 { 
             background:blue;
-            color:red;
         }
+        #super-title{
+            background:red
+        }
+        h1 {
+            background:green
+        }
+        .my-title-2{
+            background:yellow
+        }
+        strong {
+            color:blueviolet
+        }
+        .my-text strong
+        {color:aqua}
+        
 
-    </style>--> 
+</style> 
 
 </head>
 <body>
-    <div>
-        <h1>Eu sou um título</h1>
-    </div>
+<h1 id="super-title">Testando Especificidade</h1>
+    <p class="my-text">Lorem <strong>ipsum dolor</strong>  sit amet. <br>
+        Lorem ipsum dolor sit amet. <br>
+        Lorem ipsum dolor sit amet. <br>
+        <br>
+    </p>
+</h1>
+<h1 class="my-title-2">Testando Especificidade</h1>
+    <p class="my-text-2">
+        Lorem ipsum dolor sit amet. <br>
+        Lorem ipsum dolor <strong>sit</strong> amet. <br>
+        Lorem ipsum dolor sit amet. <br>
+        <br></p>
+
     
 </body>
 </html>
