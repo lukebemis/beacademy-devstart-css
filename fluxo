@@ -6,22 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
+<style>
+/*  
+        body ul li {
+        background:purple;
+        color:rgb(211, 109, 126);
+    } 
 
+    div > ul {
+        background: blue
+    }
+*/
+    h1 + p { 
+    color:green;
+    }
+</style>
 </head>
 <body>
-<div>
+<!-- <div>
     <p>Teste</p>
 </div>
 <ul>
     <li>Testando Combinadores</li>
 </ul>
 <div>Outro Formato</div>
-<section>
+<section> 
     <div>
         <ul>
             <li>Outro Marcador</li>
         </ul>
     </div>
-</section>
+</section> --> 
+<h1>Título</h1>
+<p>Mais um parágrafo</p>
+<button>Enviar</button>
+<p>Outro parágrafo</p>
 </body>
 </html>
