@@ -1,0 +1,53 @@
+<!--
+
+    São propriedades do browser que permitem que browsers adicionem
+    features a fim de colocar em uso alguma novidade que vemos no CSS.
+
+    Exemplos:
+    p {
+        -webkit-backgorund-clip: text; /*Chrome, Safari, iOS e Android */
+        -moz-background-clip: text; /* Mozilla (Firefox) */
+        -ms-background-clip: text; /* Internet Explorer ou Edge */
+        -o-background-clip: text; /* Opera */
+    }
+    https://ireade.github.io/which-vendor-prefix
+    https://caniuse.com
+
+-->
+<style>
+    p {
+        font-size: 84px;
+    }
+    body::-webkit-scrollbar {
+        width:12px;
+
+    }
+    body::-webkit-scrollbar-track {
+        background:#e0effd;
+    }
+    body::-webkit-scrollbar-thumb {
+        background: blue;
+        border-radius: 6px;
+
+    }
+</style>
+<body>
+    <h1>Vamos testar o vendor Prefix (webkit)
+    </h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+</body>
+
